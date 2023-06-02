@@ -19,7 +19,7 @@ body{
 }
 .edu-title  h1{
     display: flex;
-    color: #394867;
+    color: #212A3E;
     font-size: 40px;
     font-weight: 700;
     margin: 30px;
@@ -40,6 +40,7 @@ body{
     background-color: #394867;
     background-color: rgba(0, 0, 0, 0.6);
     box-shadow: inset 180px 60px 180px #070c27;
+    border: solid 10px #9BA4B5;
 }
 .edu-data > .ed > h2,p{
     display: flex;
