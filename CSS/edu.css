@@ -1,0 +1,26 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: #F1F6F9;
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", sans-serif;
+}
+.edu-title{
+    margin-top: 15px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edu-title  h1{
+    display: flex;
+    color: #394867;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 30px;
+}
