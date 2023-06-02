@@ -10,7 +10,7 @@ body{
     font-family: "Poppins", sans-serif;
 }
 .edu-title{
-    margin-top: 15px;
+    margin-top: 50px;
     height: 100px;
     width: 100%;
     display: flex;
@@ -23,4 +23,46 @@ body{
     font-size: 40px;
     font-weight: 700;
     margin: 30px;
+}
+.edu-data{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 400px;
+    margin: 50px;
+}
+.edu-data .ed{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    border-radius: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #394867;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: inset 180px 60px 180px #070c27;
+}
+.edu-data > .ed > h2,p{
+    display: flex;
+    color: #F1F6F9;
+    background-color: transparent;
+    padding: 20px;
+    z-index: 2;      
+}
+.engg{
+    background-image: url("../images/hkbk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.puc{
+    background-image: url("../images/goodwill.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.schl{
+    background-image: url("../images/schl.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ed:hover{
+    cursor: pointer;
 }
