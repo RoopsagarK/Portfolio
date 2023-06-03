@@ -15,13 +15,14 @@ footer{
     background-color: #212A3E;
 }
 .contactInfo > .mail,.phno{
+    display: flex;
+    align-items: center;
     text-decoration: none;
     background-color: #212A3E;
     color: white;
 }
 .mail{
-    display: flex;
-    align-items: center;
+    margin-right: 0%;
 }
 .media{
     display: flex;
