@@ -1,12 +1,34 @@
+footer{
+    background-color: #212A3E;
+}
 .contact{
     width: 100%;
-    height: 180px;
-    background-color: #212A3E;
+    height: 200px;
+    display: grid;
+    grid-template-rows: 35% 65%;
+}
+.contactInfo{
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
+    background-color: #212A3E;
+}
+.contactInfo > .mail,.phno{
+    text-decoration: none;
+    background-color: #212A3E;
+    color: white;
+}
+.mail{
+    display: flex;
     align-items: center;
 }
-.contact  img,a,mail{
+.media{
+    display: flex;
+    justify-content: center;
+    background-color: #212A3E;
+}
+.media  img,a,mail{
     margin: 10px;
     background-color: #212A3E;
     height: 60px;
