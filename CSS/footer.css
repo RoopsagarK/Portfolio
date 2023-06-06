@@ -1,11 +1,13 @@
 footer{
+    display: flex;
     background-color: #212A3E;
+    width: 100%;
 }
 .contact{
     width: 100%;
     height: 200px;
     display: grid;
-    grid-template-rows: 35% 65%;
+    grid-template-rows: 35% 0.5% 64.5%;
 }
 .contactInfo{
     display: flex;
@@ -21,8 +23,8 @@ footer{
     background-color: #212A3E;
     color: white;
 }
-.mail{
-    margin-right: 0%;
+.mail:hover,.phno:hover{
+    text-decoration: underline;
 }
 .media{
     display: flex;

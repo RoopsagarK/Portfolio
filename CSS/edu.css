@@ -1,16 +1,6 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    background-color: #F1F6F9;
-    box-sizing: border-box;
-}
-body{
-    margin: 0%;
-    padding: 0%;
-    font-family: "Poppins", sans-serif;
-}
 .edu{
     background-color: #070c27;
+    width: 100%;
 }
 .edu-title{
     margin-top: 50px;
@@ -29,14 +19,16 @@ body{
 }
 .edu-data{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit,minmax(250px,3fr));
     background-color: #070c27;
-    height: 400px;
-    margin: 50px;
+    width: 100%;
+    margin-bottom: 50px;
+    height: auto;
 }
 .edu-data .ed{
     display: flex;
     flex-direction: column;
+    height: 350px;
     margin: 30px;
     border-radius: 10px;
     align-items: flex-start;
@@ -46,7 +38,6 @@ body{
     border: solid 10px #9BA4B5;
 }
 .edu-data > .ed > h2,p{
-    display: flex;
     color: #F1F6F9;
     background-color: transparent;
     padding: 20px;
